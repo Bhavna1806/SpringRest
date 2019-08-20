@@ -1,0 +1,13 @@
+create database proddb;
+use proddb;
+create table product(
+
+
+productId int(4) auto_increment primary key,
+
+productName varchar(20),
+
+quantity int(2),
+
+price double
+);
